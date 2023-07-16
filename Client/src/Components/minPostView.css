@@ -1,0 +1,57 @@
+.minPostView{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.minPostImg{
+    margin-top: 25px;
+    height: 400px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 6%;
+    cursor: pointer;
+}
+
+.minPostCat{
+    margin-top: 16px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    font-size: 18px;
+}
+
+.minPostCat span{
+    cursor: pointer;
+}
+
+.minPostTitle{
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.minPostText{
+    margin-top: 18px;
+    font-size: 17px;
+    width: 450px;
+    text-align: justify;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

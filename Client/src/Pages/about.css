@@ -1,0 +1,29 @@
+.about{
+    margin-top: 70px;
+    display: flex;
+}
+
+.infoBar{
+    margin-top: 60px;
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutProImg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postBar{
+    flex: 9;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.postBar::-webkit-scrollbar{
+    display: none;
+}

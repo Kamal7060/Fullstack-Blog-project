@@ -1,0 +1,65 @@
+.topBar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.topBarLeft{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftIcons{
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.topBarMiddle{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middleList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listItemStyle{
+    margin-right: 20px;
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+
+.topBarRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightImgStyle{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.rightIcons{
+    font-size: 20px;
+    cursor: pointer;
+}
